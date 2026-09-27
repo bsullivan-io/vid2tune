@@ -1,0 +1,31 @@
+Vid2Tune — third-party software
+===============================
+
+Vid2Tune's own code is MIT-licensed (see LICENSE). Release builds also include
+the following programs, unmodified, as separate executables in
+Vid2Tune.app/Contents/Resources/bin. Their license texts are in
+Vid2Tune.app/Contents/Resources/licenses.
+
+yt-dlp 2026.08.19
+  License: The Unlicense (public domain) — licenses/yt-dlp-Unlicense.txt
+  Source:  https://github.com/yt-dlp/yt-dlp/tree/2026.08.19
+  Binary:  https://github.com/yt-dlp/yt-dlp/releases/tag/2026.08.19 (yt-dlp_macos)
+
+QuickJS-ng v0.17.0
+  License: MIT — licenses/QuickJS-ng-MIT.txt
+  Source:  https://github.com/quickjs-ng/quickjs/tree/v0.17.0
+  Binary:  https://github.com/quickjs-ng/quickjs/releases/tag/v0.17.0 (qjs-darwin-arm64)
+
+FFmpeg 9.0.2 (static macOS arm64 build by Martin Riedl)
+  License: GNU GPL version 3 or later — licenses/FFmpeg-GPL-3.0.txt
+           This build is configured with --enable-gpl --enable-version3 and
+           statically links third-party libraries such as LAME, x264 and x265.
+  Source:  FFmpeg:       https://ffmpeg.org/releases/ffmpeg-9.0.2.tar.xz
+           Build scripts and library versions:
+                         https://gitlab.com/martinr92/ffmpeg
+  Binary:  https://ffmpeg.martin-riedl.de/
+
+  Written offer: for at least three years from the date you received this
+  release, the complete corresponding source code for the FFmpeg binary
+  included in it is available on request from the Vid2Tune maintainer via the
+  project's GitHub issue tracker.
